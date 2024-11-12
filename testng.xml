@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testclass.testng.failscripts.AnotherLister"/>
+    </listeners>
+    <test verbose="10" preserve-order="true" parallel="false" thread-count="5" name="D:/repo1/clone/TestFolder/Demo/Maven-30-July-24">
+        <classes>
+            <class name="testclass.testng.failscripts.FailScriptsExecutions"/>
+        </classes>
+    </test>
+</suite>
