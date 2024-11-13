@@ -18,6 +18,7 @@ public class PriorityExample {
     @Test(priority = -1, groups = {"sanity"})
     public void testCase_E(){
         System.out.println("Test Case E");
+        System.out.println("Hello Everyone... Good Morning..");
     }
 
     @Test(priority = 0, groups = {"smoke"})
@@ -27,6 +28,6 @@ public class PriorityExample {
 
     @Test(priority = 'A')
     public void testCase_A(){
-        System.out.println("Test Case A");
+        System.out.println("Test Case ABCD");
     }
 }
