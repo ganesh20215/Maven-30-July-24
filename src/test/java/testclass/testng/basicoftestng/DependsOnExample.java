@@ -20,4 +20,9 @@ public class DependsOnExample {
     public void verifyOnboardNewUser(){
         System.out.println("Verify Onboard New User");
     }
+
+    @Test(priority = 1, groups = {"sanity"})
+    public void testCase_Z(){
+        System.out.println("Test Case Z");
+    }
 }
