@@ -23,4 +23,9 @@ public class PriorityExample {
     public void testCase_B(){
         System.out.println("Test Case B");
     }
+
+    @Test
+    public void NewTestMethodForNewCommit(){
+        System.out.println("Test Case for NewTestMethodForNewCommit");
+    }
 }
