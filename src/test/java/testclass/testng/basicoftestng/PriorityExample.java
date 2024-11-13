@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class PriorityExample {
 
-    @Test(priority = 1, enabled = true, groups = {"sanity"})
+    @Test(priority = 1, groups = {"sanity"})
     public void testCase_Z(){
         System.out.println("Test Case Z");
     }
@@ -18,9 +18,7 @@ public class PriorityExample {
     @Test(priority = -1, groups = {"sanity"})
     public void testCase_E(){
         System.out.println("Test Case E");
-        System.out.println("Hello Everyone... Good Morning..");
     }
-
     @Test(priority = 0, groups = {"smoke"})
     public void testCase_B(){
         System.out.println("Test Case B");
