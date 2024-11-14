@@ -13,7 +13,7 @@ public class DependsOnExample {
 
     @Test(dependsOnMethods = {"verifyLogin"})
     public void verifyTransactions(){
-        System.out.println("Verify Transactions");
+        System.out.println("Verify Transactions verification needed..");
     }
 
     @Test(dependsOnMethods = {"verifyLogin"})
