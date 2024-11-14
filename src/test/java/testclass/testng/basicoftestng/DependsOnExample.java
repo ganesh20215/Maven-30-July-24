@@ -18,7 +18,7 @@ public class DependsOnExample {
 
     @Test(dependsOnMethods = {"verifyLogin"})
     public void verifyOnboardNewUser(){
-        System.out.println("Verify Onboard New User");
+        System.out.println("Verify Onboard New User and say Good Evening..");
     }
 
     @Test(priority = 1, groups = {"sanity"})
