@@ -14,6 +14,5 @@ public class HardAssertExample {
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
         Assert.assertEquals(driver.getTitle(), "Facebook", "Title should be match");
         Assert.assertTrue(driver.findElement(By.id("login1")).isDisplayed(), "Username textbox should be displayed");
-        driver.close();
     }
 }
