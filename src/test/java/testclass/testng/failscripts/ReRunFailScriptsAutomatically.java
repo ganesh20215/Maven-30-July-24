@@ -15,6 +15,7 @@ public class ReRunFailScriptsAutomatically implements IRetryAnalyzer {
 
             return true;
         }
+        System.out.println("Hello Java");
         return false;
     }
 }
